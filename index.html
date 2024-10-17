@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <script src="https://cdn.tailwindcss.com"></script>
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
 </head>
 <body>
 
 <main>
     <nav class="w-full h-20  flex  " >
-        <div id="nav_part1" class="w-1/2 h-full  pl-5 flex gap-[20px] items-center">
+        <div id="nav_part1" class="w-1/2 h-full  pl-24 flex gap-[20px] items-center">
             <img class="w-[70px]" src="./OIP-removebg-preview.png" alt="">
             <h1 class="text-2xl leading-3 font-bold" >Kurukshetra <br> <span class="text-xl font-normal text-red-400">Coding school</span></h1>
         </div>
-        <div  id="nav_part2" class="w-1/2 h-full flex">
+        <div  id="nav_part2" class="w-1/2 h-full flex pr-24">
             <ul class="w-full h-full flex items-center justify-end pr-[50px] gap-[30px]">
                 <li>Home</li>
                 <li>About</li>
@@ -22,8 +27,23 @@
             </ul>
         </div>
     </nav>
-    <section class="hero" ></section>
-    <footer></footer>
+    <section class="hero w-full h-[615px]   flex" >
+      <div id="hero_part1" class="w-1/2 h-full py-[100px] px-[100px] flex flex-col gap-[30px] " >
+        <h6 class="text-lg" >Hello Coding Kro*****</h6>
+        <h1 class="text-6xl" >Hey! Welcome , Kurukshetra <br><span class="font-normal text-red-400">Coding school</span></h1>
+        <p class="text-xl" >We touch about Mern Stack !</p>
+      <div id="btn " class="flex gap-[50px]">
+        <button class="border-2  border-slate-950 py-[5px] px-[20px] rounded-xl hover:bg-red-400 hover:text-white hover:border-white " >Explore</button>
+        <button class="border-2  border-slate-950 py-[5px] px-[20px] rounded-xl hover:bg-red-400 hover:text-white hover:border-white">  Just like it</button>
+      </div>
+      </div>
+      <div id="hero_part2 "class="w-1/2 h-full flex items-center justify-center">
+        <img  width="80%" height="100%" class="rounded-3xl" src="./Untitled design.png" alt="">
+      </div>
+    </section>
+    <footer class="w-full h-[80px] flex items-center justify-center" >
+            @KurukshetraCodingSchoolCopyright
+    </footer>
 </main>
 
 </body>
